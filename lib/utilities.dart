@@ -34,7 +34,7 @@ class Utilities {
   //   return Platform().toString();
   // }
 
-  static String appName = 'DESPATI';
+  static String appName = 'DETRAN DESPACHANTE';
 
   // static Future<void> getAppName() async {
   //   PackageInfo info = await PackageInfo.fromPlatform();
