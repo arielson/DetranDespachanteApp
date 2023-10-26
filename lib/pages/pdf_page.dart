@@ -46,7 +46,7 @@ class _PdfPage extends State<PdfPage> {
                       List<String> paths = [widget.filePath];
                       await Share.shareFiles(paths,
                           text: widget.fileName,
-                          subject: 'DESPATI - ' + widget.fileName,
+                          subject: 'DETRANBA - ' + widget.fileName,
                           sharePositionOrigin:
                           box!.localToGlobal(Offset.zero) & box.size);
                     },
